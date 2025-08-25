@@ -7,7 +7,7 @@ This is an **Unofficial Web Port** of the free RPG Maker MV horror game [**TADC 
 There are 2 methods:
 
 ### Vercel
-Go to <PLACEHOLDER_LINK>
+Go to https://tadc-vn-demo-candy-chaos-web-port.vercel.app/
 
 ### Local Server
 1. Click Code -> Download ZIP -> Extract the Zip.
@@ -71,4 +71,5 @@ For pure educational purposes, fun, and to make this game accessible on more pla
 
 - **Game:** All credit for the game's creation goes to **allhailthequeenuwu**. Please support the original creator by visiting the [official itch.io page](https://allhailthequeenuwu.itch.io/theamazingdigitalfangame2demo).
 - **Web Port:** This web-based version was ported by [Nick088](https://linktr.ee/nick088).
+
 - **Game Engine:** [Godot](https://godotengine.org/), specifically used version 4.2.2 for this game.
