@@ -1,0 +1,8 @@
+{
+  "name": "TADC-VN-DEMO-CANDY-CHAOS",
+  "version": "1.0.0",
+  "description": "Web port of TADC Fangame Sequel",
+  "scripts": {
+    "build": "npm install -g git-lfs && git lfs install && git lfs pull && echo 'Git LFS pull complete, starting Vercel build...' && vercel build"
+  }
+}
