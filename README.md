@@ -27,7 +27,7 @@ This guide provides step-by-step instructions for building a web version of the 
 
 ### Prerequisites
 
-1. **Get the Game Files:** [Download the original game from the creator's itch.io page](https://allhailthequeenuwu.itch.io/theamazingdigitalfangame) and extract the files.
+1. **Get the Game Files:** [Download the original game from the creator's itch.io page](https://allhailthequeenuwu.itch.io/theamazingdigitalfangame2demo) and extract the files.
 2. **GDRETools/gdsdecomp:** [Download the Latest GDRETools/gdsdecomp](https://github.com/GDRETools/gdsdecomp/releases/latest) to Decompile the game.
 3. **Godot**: Having [Godot](https://godotengine.org/download) installed, for this game, version [4.2.2-stable](https://github.com/godotengine/godot-builds/releases/tag/4.2.2-stable) specifically.
 4. **Python (for running):** Having [Python](https://www.python.org/downloads/) installed and added to your system's PATH, to run the local web server.
