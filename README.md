@@ -28,7 +28,7 @@ This guide provides step-by-step instructions for building a web version of the 
 ### Prerequisites
 
 1. **Get the Game Files:** [Download the original game from the creator's itch.io page](https://allhailthequeenuwu.itch.io/theamazingdigitalfangame2demo) and extract the files.
-2. **GDRETools/gdsdecomp:** [Download the Latest GDRETools/gdsdecomp](https://github.com/GDRETools/gdsdecomp/releases/latest) to Decompile the game.
+2. **Godot RE Tools:** [Download the Latest GDRETools/gdsdecomp](https://github.com/GDRETools/gdsdecomp/releases/latest) to Decompile the game.
 3. **Godot**: Having [Godot](https://godotengine.org/download) installed, for this game, version [4.2.2-stable](https://github.com/godotengine/godot-builds/releases/tag/4.2.2-stable) specifically.
 4. **Python (for running):** Having [Python](https://www.python.org/downloads/) installed and added to your system's PATH, to run the local web server.
 5. **Git LFS (Optional, for uploading on GitHub):** [Git Large File Storage](https://git-lfs.github.com/) installed on your system. This is crucial for handling large game files in Git.
@@ -38,7 +38,7 @@ This guide provides step-by-step instructions for building a web version of the 
 
 We need to Decompile the game to get the Source Code from the `.exe`, to use to Build the Web Version.
 
-1. Open GDRETools/gdsdecomp -> RE Tools -> Recover project -> Select the Game Executable -> Extract it somewhere.
+1. Open Godot RE Tools -> RE Tools -> Recover project -> Select the Game Executable -> Extract it somewhere.
 
 ### Part B: Godot Build Web Version
 
