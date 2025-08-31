@@ -50,7 +50,7 @@ We need to Decompile the game to get the Source Code from the `.exe`, to use to 
 
 ### Part C: Running the Game Locally
 
-You need to run them using a local web server. Simply opening the `.html` file directly will not work due to browser security restrictions. You will need a slightly complex server setup than the built-in one to run it via Python, since Godot 4.x games require the server to have Cross Origin Isolation & SharedArrayBuffer enabled.
+You need to run them using a local web server. Simply opening the `.html` file directly will not work due to browser security restrictions. You will need a slightly complex server setup than the built-in one to run it via Python, since Godot 4.0-4.2 games are multi-threaded, they require the server to have Cross Origin Isolation & SharedArrayBuffer enabled.
 
 1. Create a file named `server.py` in the **root of your Git repository** (the same level as your `godot` folder) and add the following content:
     ```py
@@ -94,7 +94,7 @@ For uploading the repository to GitHub, it's essential to use Git Large File Sto
     git lfs track "godot/*.wasm"
     ```
     This creates/updates the `.gitattributes` file.
-3. Create a file named `vercel.json` in the **root of your Git repository** (the same level as your `godot` folder) and add the following content. This ensures Vercel sends the necessary Cross-Origin Isolation headers for Godot 4.x games.
+3. Create a file named `vercel.json` in the **root of your Git repository** (the same level as your `godot` folder) and add the following content. This ensures Vercel sends the necessary Cross-Origin Isolation headers for Godot 4.0-4.2 games.
     ```json
     {
       "headers": [
