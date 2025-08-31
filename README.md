@@ -48,6 +48,10 @@ We need to Decompile the game to get the Source Code from the `.exe`, to use to 
 4. In Options, in VRAM Texture Compression, Check For Mobile, and you will get a "Target platform requires 'ETC2/ASTC' texture compression. Enable 'Import ETC2 ASTC' to fix.", where you will just need to click "Fix Import" at the right of it.
 5. Export Project to a dedicated, empty subfolder of your root project, name it like `godot` used in this repository for convenience. This subfolder will contain `index.html`, `.js`, `.pck`, `.wasm`, etc.
 
+  You may also consider:
+  - Export with Debug: useful for checking errors in the browser console, though it produces a slightly larger and slower build.  
+  - Save the file name as `index.html`: required for hosting on certain platforms (like itch.io).
+
 ### Part C: Running the Game Locally
 
 You need to run them using a local web server. Simply opening the `.html` file directly will not work due to browser security restrictions. You will need a slightly complex server setup than the built-in one to run it via Python, since Godot 4.0-4.2 games are multi-threaded, they require the server to have Cross Origin Isolation & SharedArrayBuffer enabled.
